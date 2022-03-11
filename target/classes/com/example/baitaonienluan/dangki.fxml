@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="archor1" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.baitaonienluan.Dangki">
+   <children>
+      <Label layoutX="199.0" layoutY="14.0" text="Đăng kí">
+         <font>
+            <Font name="Monospaced Bold" size="48.0" />
+         </font>
+      </Label>
+      <Pane layoutX="59.0" layoutY="89.0" prefHeight="277.0" prefWidth="483.0">
+         <children>
+            <Label layoutX="134.0" layoutY="6.0" styleClass="pane" text="Tài khoản">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="134.0" layoutY="75.0" styleClass="pane" text="Mật khẩu">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="textHoten" layoutX="134.0" layoutY="36.0" prefHeight="25.0" prefWidth="216.0" styleClass="textfiled" />
+            <PasswordField fx:id="textMatkhau" layoutX="134.0" layoutY="104.0" prefHeight="25.0" prefWidth="216.0" styleClass="textfiled" />
+            <Button fx:id="btntv" layoutX="241.0" layoutY="231.0" mnemonicParsing="false" onAction="#trove" prefHeight="40.0" prefWidth="109.0" text="Trở về" />
+            <Button fx:id="btndk" layoutX="360.0" layoutY="231.0" mnemonicParsing="false" onAction="#themtaikhoan" prefHeight="40.0" prefWidth="116.0" text="Đăng kí" />
+            <Label layoutX="135.0" layoutY="143.0" styleClass="pane" text="Nhập lại mật khẩu">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="textNLMatkhau" layoutX="134.0" layoutY="173.0" prefHeight="25.0" prefWidth="216.0" styleClass="textfiled" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

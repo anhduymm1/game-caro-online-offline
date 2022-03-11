@@ -1,0 +1,30 @@
+.archor1{
+    -fx-background-color: LavenderBlush;
+}
+.root{
+    -fx-font-family: 'Monospaced';
+    -fx-font-size: 20;
+}
+.button{
+    -fx-font-family: 'Monospaced';
+    -fx-background-color: darksalmon;
+    -fx-border-width: 1;
+     -fx-background-radius : 10px;
+     -fx-font-size: 20;
+     -fx-font-weight: bold;
+     -fx-cursor: hand;
+     -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.pane{
+    -fx-font-size: 20;
+     -fx-font-weight: bold;
+}
+.textfiled{
+    -fx-font-family: 'Monospaced';
+    -fx-font-size: 15;
+
+}
+.button: hover{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}

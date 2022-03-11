@@ -1,0 +1,59 @@
+.dialog{
+    -fx-background-color: darksalmon;
+    /*-fx-opacity: 0;*/
+    /*-fx-background-image: url("wallpaperflare.com_wallpaper.jpg");*/
+
+}
+
+.dialog > *.content{
+    -fx-background-radius: 5px;
+    -fx-font-weight: bold;
+    -fx-text-fill:  ghostwhite;
+}
+
+.dialog > *.content.label{
+    -fx-font-size: 30px;
+    -fx-font-family: "Monospaced";
+
+}
+
+.dialog > *.content.label{
+    -fx-font-size: 24px;
+    -fx-font-family: "Monospaced";
+
+}
+
+.dialog:header .header-panel {
+    -fx-background-color: darksalmon;
+    -fx-font-size: 20px;
+    -fx-font-family: "Monospaced";
+    -fx-text-alignment: center;
+    /*-fx-padding: 0 0 0 10;*/
+    -fx-background-radius: 5px;
+    -fx-font-weight: 700;
+}
+
+.dialog:header .header-panel .label{
+    -fx-text-fill:  #2bf5ab;
+    -fx-text-alignment: center;
+    -fx-padding: 0 0 0 30;
+    -fx-margin:10 0 0 0 ;
+}
+
+.button{
+    -fx-background-radius : 10px;
+    -fx-min-height: 30px;
+    -fx-max-height: 30px;
+    -fx-background-color:  LavenderBlush;
+    -fx-font-weight: 700;
+    -fx-end-margin: 10;
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.button:hover{
+    -fx-background-radius : 10px;
+    -fx-background-color: red;
+    -fx-text-fill:  ghostwhite;
+    -fx-min-width: 30px;
+    -fx-min-height: 30px;
+}

@@ -1,0 +1,91 @@
+.anchor1 {
+   -fx-background-color: LavenderBlush;
+}
+.anchor2 {
+   -fx-background-color: gray;
+}
+.button1{
+    -fx-font-size: 20px;
+    -fx-background-color:ghostwhite;
+    -fx-font-family: 'Comic Sans MS';
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.pane1{
+ -fx-border-width: 3;
+ -fx-border-color: gray;
+}
+.img{
+    -fx-cursor: hand;
+}
+.dialog{
+    -fx-background-color: darksalmon;
+    -fx-text-fill: white;
+    /*-fx-opacity: 0;*/
+    /*-fx-background-image: url("wallpaperflare.com_wallpaper.jpg");*/
+
+}
+
+.dialog > *.content{
+    -fx-background-radius: 5px;
+    -fx-text-fill: ghostwhite;
+    -fx-font-family: "Monospaced";
+    -fx-font-weight: bold;
+}
+
+.dialog > *.content.label{
+    -fx-font-size: 30px;
+    -fx-font-family: "Monospaced";
+
+}
+
+.dialog > *.content.label{
+    -fx-font-size: 24px;
+    -fx-font-family: "Monospaced";
+
+}
+
+.dialog:header .header-panel {
+    -fx-font-size: 20px;
+    -fx-font-family: "Monospaced";
+    -fx-background-color: darksalmon;
+    -fx-text-alignment: center;
+    /*-fx-padding: 0 0 0 10;*/
+    -fx-background-radius: 5px;
+
+}
+
+.dialog:header .header-panel .label{
+    -fx-text-fill: ghostwhite;
+    -fx-text-alignment: center;
+    -fx-padding: 0 0 0 30;
+    -fx-margin:10 0 0 0 ;
+}
+.text1{
+    -fx-font-smoothing-type: lcd;
+    -fx-fill: white;
+    -fx-font-size: 30pt;
+    -fx-font-family: "Monospaced";
+     -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.button1:hover{
+    -fx-background-color: darksalmon;
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.tongo{
+    -fx-font-smoothing-type: lcd;
+    -fx-fill: white;
+    -fx-font-size: 20pt;
+    -fx-font-family: "Monospaced";
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+     -fx-text-fill: green;
+}
+.tongx{
+    -fx-font-smoothing-type: lcd;
+    -fx-fill: white;
+    -fx-font-size: 20pt;
+    -fx-font-family: "Monospaced";
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+     -fx-text-fill: red;
+}

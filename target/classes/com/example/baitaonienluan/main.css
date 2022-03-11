@@ -1,0 +1,39 @@
+.archor1{
+    -fx-background-color: LavenderBlush;
+    -fx-font-family: 'Monospaced';
+    -fx-font-size: 20;
+}
+.col1{
+    -fx-font-size: 15;
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-border-color: gray;
+    -fx-alignment: center;
+}
+.button{
+    -fx-font-family: 'Monospaced';
+    -fx-background-color: darksalmon;
+    -fx-border-width: 1;
+    -fx-background-radius : 10px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect:  dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.button: hover{
+    -fx-background-color: red;
+    -fx-text-fill: white;
+}
+.lable{
+    -fx-border-radius:10;
+    -fx-border-width: 3;
+    -fx-border-color: gray;
+    -fx-padding: 3 3 3 3;
+}
+.textfield1{
+    -fx-background-color: LavenderBlush;
+    -fx-border-color: none;
+}
+.textfield1: focused{
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: gray;
+}

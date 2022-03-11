@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane fx:id="stackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.baitaonienluan.Intro">
+   <children>
+      <AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <MediaView fx:id="intro" fitHeight="360.0" fitWidth="590.0" layoutX="6.0" />
+            <Button fx:id="boqua" layoutX="511.0" layoutY="12.0" mnemonicParsing="false" onAction="#boqua" style="-fx-background-color: none;" textFill="#000ef5">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="38.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../img/next.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <ProgressBar fx:id="processbar" layoutX="10.0" layoutY="363.0" prefHeight="26.0" prefWidth="583.0" progress="1.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
